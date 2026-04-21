@@ -1,0 +1,10 @@
+/ {
+	aliases {
+		led0 = &led0;
+	};
+};
+
+/* 确保对应的 GPIO 控制器已启用 */
+&gpiob {
+	status = "okay";
+};
